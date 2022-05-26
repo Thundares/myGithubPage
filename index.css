@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}
+
+/*title*/
+h1 {
+    /* colors */
+    color: #008F11;
+    text-shadow: 0px 0px 80px #00FF41;
+
+    /* text */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+
+    /* display */
+    display: flex;
+    justify-content: center;
+}
+
+/*subTitle*/
+h2 {
+    /* colors */
+    color: #003b00;
+
+    /* text */
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0px 0px 20px #008F11;
+
+    /* display */
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+/*page's container*/
+main{
+    /* display */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+/*pages*/
+main a{
+    /* colors */
+    color: #00FF41;
+
+    /* text */
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 5px 5px 20px #008F11;
+    text-align: center;
+
+    /* display */
+    display: block;
+    width: 20vw;
+}
+
+/*main link's hover*/
+main a:hover{
+    /*text*/
+    text-shadow: 0px 0px 10px #00FF41;
+}
+
+footer{
+
+    /*position*/
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+
+    /*color*/
+    background-color: #003b00;
+
+    /*display*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*footer's links*/
+footer a{
+
+    /*colors*/
+    color: #00FF41;
+
+    /*text*/
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*display*/
+    display: block;
+    width: 10vw;
+    text-align: center;
+}
+
+/*footer links hover*/
+footer a:hover{
+    /*text*/
+    text-shadow: 0px 0px 20px #00FF41;
+}
